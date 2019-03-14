@@ -1,0 +1,49 @@
+{
+  "addons": [
+    "adminium",
+    "auth0",
+    "bluzelledb",
+    "bugsnag",
+    "cloudkarafka",
+    "cloudmqtt",
+    "codeship",
+    "dbinsights",
+    "dynotower-start-stop",
+    "einstein-vision",
+    "ipinvestigator",
+    "iron_cache",
+    "loaderio",
+    "logdna",
+    "moesif",
+    "parrot",
+    "heroku-postgresql",
+    "scrapetastic",
+    "sharedworkforce",
+    "transloadit",
+    "tunemygc",
+    "watermarker"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "Hydrastack",
+  "env": {
+    "BLUZELLEDB_MAROON_ADDRESS": {
+      "required": true
+    },
+    "BLUZELLEDB_MAROON_PORT": {
+      "required": true
+    },
+    "BLUZELLEDB_MAROON_UUID": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "hydravpn",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
